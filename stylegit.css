@@ -1,17 +1,59 @@
+/*Habillage page*/
+
 body
 {
-    background-color : darkblue;
-    color : yellow;
+    background-color : lightyellow;
+    color : darkblue;
     background-image : url('images/logo.png');
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 20%;
 }
 
+/*Habillage titre de niveau 1*/
 h1
 {
     font-size: 360%;
-    font-family: cursive, arial, helvetica, geneva ;
     color: red;
     text-align: center;
 }
+
+/*Habillage du menu*/
+#menu {
+    margin: 5px;
+    background-color: black;
+    width: 100%;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#menu ul li a {
+    color: white;
+    display: inline;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0;
+    text-align: left;
+}
+
+/*Habillage lien hypertexte*/
+
+#menu ul li a:link
+{
+    color: darkgreen;
+}
+
+#menu ul li a:visited{
+    color: grey;
+}
+
+#menu ul li a:hover {
+    color: #B21613;
+}
+
