@@ -3,11 +3,14 @@ body
     background-color : darkblue;
     color : yellow;
     background-image : url('images/logo.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 20%;
 }
 
 h1
 {
-    font-size: 200%;
+    font-size: 360%;
     font-family: cursive, arial, helvetica, geneva ;
     color: red;
     text-align: center;
