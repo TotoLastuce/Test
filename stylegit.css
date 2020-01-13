@@ -1,0 +1,14 @@
+body
+{
+    background-color : darkblue;
+    color : yellow;
+    background-image : url('images/logo.png');
+}
+
+h1
+{
+    font-size: 200%;
+    font-family: cursive, arial, helvetica, geneva ;
+    color: red;
+    text-align: center;
+}
